@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hearder,.footer{
+
+    height: 800px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.image{
+
+    background-image: url("/Image/matrix.avif");
+    height: 800px;
+    background-attachment:scroll;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+.image_1{
+
+    background-image: url("/Image/Mortal\ kombat.avif");
+    height: 800px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
